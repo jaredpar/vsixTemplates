@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TemplateReport>
+  <ItemTemplates />
+  <ProjectTemplates>
+    <ProjectTemplate Path="..\RoundTripVSIX\_Definitions\_project.vstemplate.xml" Name="Round Trippable VSIX Project" Description="VSIX project which can be opened in any version of Visual Studio (2010, 2012, 2013).  Build, F5, etc ... work with no changes" ProjectType="CSharp" ProjectSubType="" />
+  </ProjectTemplates>
+  <Snippets />
+</TemplateReport>
