@@ -2,7 +2,8 @@
 <TemplateReport>
   <ItemTemplates />
   <ProjectTemplates>
-    <ProjectTemplate Path="..\RoundTripVSIX\_Definitions\_project.vstemplate.xml" Name="Round Trippable VSIX Project" Description="VSIX project which can be opened in any version of Visual Studio (2010, 2012, 2013).  Build, F5, etc ... work with no changes" ProjectType="CSharp" ProjectSubType="" />
+    <ProjectTemplate Path="..\RoundTripVSIX\_Definitions\_project.vstemplate.xml" Name="Round Trippable VSIX Project" Description="VSIX project which can be opened in any version of Visual Studio (2010, 2012, 2013).  Build, F5, etc ... work with no changes.  Requires the VS 2010 SDK" ProjectType="CSharp" ProjectSubType="" />
+    <ProjectTemplate Path="..\RoundTripVSIX2012\_Definitions\_project.vstemplate.xml" Name="Round Trippable VSIX Project 2012" Description="VSIX project which can be opened in any version of Visual Studio 2012 and beyond.  Build, F5, etc ... work with no changes.  Requires the VS 2012 SDK" ProjectType="CSharp" ProjectSubType="" />
   </ProjectTemplates>
   <Snippets />
 </TemplateReport>

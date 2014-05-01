@@ -3,10 +3,14 @@
   <Metadata>
     <Identity Id="VSIXTemplates..eaf2b989-68b2-488e-b7cc-749812326e9c" Version="1.0" Language="en-US" Publisher="JaredPar" />
     <DisplayName>VSIXTemplates</DisplayName>
-    <Description>Empty VSIX Project.</Description>
+    <Description xml:space="preserve">Collection of VSIX templates for Visual Studio including 
+
+- Empty VSIX which can be round tripped to any Visual Studio version</Description>
+    <MoreInfo>https://github.com/jaredpar/vsixTemplates</MoreInfo>
+    <License>License.txt</License>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[10.0,12.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,12.0]" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
